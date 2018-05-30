@@ -1,7 +1,7 @@
 Predicting DINC
 ========================================================
-author: 
-date: 
+author: Ryan Estrellado
+date: May 29, 2018
 autosize: true
 
 Introduction
