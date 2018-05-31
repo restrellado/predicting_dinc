@@ -29,34 +29,40 @@ Demonstration
 Overdue 60 Day Timelines 
 ========================================================
 
-- INIT_EVAL - PRNT_CNST > 60
+- INIT_EVAL - PRNT_CNST > 60 days
+- No EVLDLAY code
 - Demonstration
 
 
 Overdue Annual Reviews 
 ========================================================
 
-- REPT_DATE - LAST_IEP > 365
+- REPT_DATE - LAST_IEP > 1 year
+- No IEPDELAY code
 - Demonstration
 
 
 Overdue Triennial Reviews 
 ========================================================
 
-- REPT_DATE - LAST_EVAL > 1095
+- REPT_DATE - LAST_EVAL > 3 years
+- No TRIDELAY code
 - Demonstration
 
 
 Overdue Third Birthday Evals 
 ========================================================
 
-Demonstration
+- INIT_EVAL - BIRTHDATE >= 1095
+- No TBDLAY code
+- Demonstration
 
 
 Noncompliant Tran Regs
 ========================================================
 
-Demonstration
+- TRAN_REG1 - TRAN_REG8
+- Demonstration
 
 
 Part 2: Getting Good at Predictions 
